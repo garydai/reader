@@ -27,7 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSLog(@"1");
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,7 +38,7 @@
 
 -(void) awakeFromNib
 {
-    NSLog(@"3");
+
     [self setLeftPanel:[self.storyboard instantiateViewControllerWithIdentifier:@"leftViewController"]];
     [self setCenterPanel:[self.storyboard instantiateViewControllerWithIdentifier:@"centerViewController"]];
    // [self setRightPanel:[self.storyboard instantiateViewControllerWithIdentifier:@"rightViewController"]];

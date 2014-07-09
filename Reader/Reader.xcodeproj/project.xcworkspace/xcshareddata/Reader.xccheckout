@@ -12,6 +12,8 @@
 	<dict>
 		<key>235A1D7F-7EC9-4E60-BA02-2E998D2C8752</key>
 		<string>https://github.com/garydai/reader.git</string>
+		<key>43BA6685-9260-4A45-9B39-E4444A433F70</key>
+		<string>https://github.com/garydai/myreader.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Reader/Reader.xcodeproj/project.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>235A1D7F-7EC9-4E60-BA02-2E998D2C8752</key>
 		<string>../../..</string>
+		<key>43BA6685-9260-4A45-9B39-E4444A433F70</key>
+		<string>../../../../Documents/myreader/myreader</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/garydai/reader.git</string>
@@ -28,6 +32,14 @@
 	<string>235A1D7F-7EC9-4E60-BA02-2E998D2C8752</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>43BA6685-9260-4A45-9B39-E4444A433F70</string>
+			<key>IDESourceControlWCCName</key>
+			<string>myreader</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

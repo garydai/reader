@@ -1,5 +1,5 @@
 //
-//  GGTableViewController.h
+//  GGHomeCell.h
 //  Reader
 //
 //  Created by 戴特长 on 14-7-9.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GGTableViewController : UITableViewController
-
-@property (nonatomic, strong) NSArray *tableData;
-
+@interface GGHomeCell : UITableViewCell
 
 @end

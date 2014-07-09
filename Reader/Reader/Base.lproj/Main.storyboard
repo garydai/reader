@@ -22,16 +22,16 @@
             </objects>
             <point key="canvasLocation" x="-391" y="-645"/>
         </scene>
-        <!--Table View Controller - Root View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="gMb-7e-Oe5">
             <objects>
-                <tableViewController id="FUm-qj-eYA" sceneMemberID="viewController">
+                <tableViewController id="FUm-qj-eYA" customClass="GGHomeViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="DfF-nP-bLk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="C8X-n8-1Ad">
+                            <tableViewCell contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="C8X-n8-1Ad" customClass="GGHomeCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="C8X-n8-1Ad" id="Y7U-V3-qHP">
@@ -45,11 +45,14 @@
                             <outlet property="delegate" destination="FUm-qj-eYA" id="gqx-jh-HFP"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="LDP-oy-bS1"/>
+                    <navigationItem key="navigationItem" id="LDP-oy-bS1"/>
+                    <connections>
+                        <outlet property="tableView" destination="DfF-nP-bLk" id="m8N-s5-qzo"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fxu-ea-0KK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="524" y="-908"/>
+            <point key="canvasLocation" x="488" y="-908"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="jHR-sC-a9C">
@@ -77,7 +80,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Wm-8f-O61" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11" y="-1739"/>
+            <point key="canvasLocation" x="87" y="-1567"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zJm-1x-d0B">
